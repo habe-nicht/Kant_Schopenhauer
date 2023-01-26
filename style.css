@@ -1,0 +1,72 @@
+body {
+    font-family: Cambria;
+    color: #333333;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #023020;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #cccccc;
+    background-image: url("https://pbs.twimg.com/media/Fk8vzlrX0AADJoL?format=jpg&name=medium");
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    font-size: 20px;
+    color: #023020;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color:darkgreen;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav li {
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+        nav a:hover {
+            color: #006699;
+            text-decoration: underline;
+        }
+
+.highlight {
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20
